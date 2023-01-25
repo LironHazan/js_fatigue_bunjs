@@ -31,3 +31,6 @@ I use it as a package manager and replacement to npx
 Run the server: `bun ./server.ts`
 
 Browse to http://localhost:3000/
+
+
+** In case you're interested on more info of the parser you can find that on [this post](https://itnext.io/from-parsimmon-to-nom-playing-with-parser-combinators-typescript-rust-c915865edd91).

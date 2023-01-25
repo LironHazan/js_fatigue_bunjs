@@ -1,0 +1,15 @@
+- name: Setup Bun
+  # You may pin to the exact commit or the version.
+  # uses: oven-sh/setup-bun@29cb413d63919d58ac5b796e5ee4cfe129a3a3b7
+  uses: oven-sh/setup-bun@v0.1.8
+  with:
+    # The Bun version to install.
+    bun-version: # optional, default is latest
+    # The github token secret can be passed in using {{ secrets.GITHUB_TOKEN }}
+    github-token: # optional, default is ${{ github.token }}
+    # Deprecated, use repository input instead. Install builds from https://github.com/oven-sh/misc-test-builds (not recommended!)
+    misc-test-builds: # optional
+    # Repository from which the bun is downloaded. Defaults to https://github.com/oven-sh/bun
+    repository: # optional, default is https://github.com/oven-sh/bun
+    # Full url to download bun, for example if you want to download an artifact.
+    custom-download-url: # optional

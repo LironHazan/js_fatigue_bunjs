@@ -1,17 +1,14 @@
-- name: Setup Bun & Run Unit Tests
-  uses: oven-sh/setup-bun@v0.1.8
-  with:
-    # The Bun version to install.
-    bun-version: # optional, default is latest
-  on: [ pull_request ]
-  jobs:
-    test:
-      name: run unit tests
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-          with:
-            fetch-depth: 0
-        - uses: actions/oven-sh/setup-bun@v0.1.8
-        - run: bun wiptest
+name: Setup Bun & Run Unit Tests
+#uses: oven-sh/setup-bun@v0.1.8
+on: [ pull_request ]
+jobs:
+  test:
+    name: run unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/oven-sh/setup-bun@v0.1.8
+      - run: bun wiptest
 

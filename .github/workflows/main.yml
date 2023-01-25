@@ -1,5 +1,4 @@
-name: Setup Bun & Run Unit Tests
-uses: oven-sh/setup-bun@v0.1.8
+name: Setup Bun
 on: [ pull_request ]
 jobs:
   test:
@@ -9,6 +8,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/oven-sh/setup-bun@v0.1.8
+      - uses: oven-sh/setup-bun@v0.1.8
       - run: bun wiptest
 

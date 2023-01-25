@@ -3,7 +3,7 @@
 bun / bunx
 
 ### What is Bunjs
-A new Jvavascript runtime based on JavascriptCore (webkit) engine
+A new Javascript runtime based on JavascriptCore (webkit) engine
 The runtime itself is written in [Zig](https://ziglang.org/learn/why_zig_rust_d_cpp/) ("its like Rust to the poor" said Cfir.T) 
 
 repo: https://github.com/oven-sh/bun

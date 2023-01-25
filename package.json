@@ -2,6 +2,10 @@
   "name": "js_fatigue_bunjs",
   "module": "server.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun ./server.ts",
+    "test": "bun wiptest"
+  },
   "devDependencies": {
     "bun-types": "^0.4.0",
     "@types/parsimmon": "1.10.6"

@@ -1,5 +1,5 @@
 name: Setup Bun & Run Unit Tests
-#uses: oven-sh/setup-bun@v0.1.8
+uses: oven-sh/setup-bun@v0.1.8
 on: [ pull_request ]
 jobs:
   test:
